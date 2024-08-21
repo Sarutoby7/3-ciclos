@@ -27,3 +27,4 @@ o	Finalmente, el contenido del contenedor resultado se actualiza usando innerHTM
     presentar resultados dinámicos, destacando cómo trabajar con la interacción del usuario en una página web.
 
 Github:
+https://sarutoby7.github.io/3-ciclos/
