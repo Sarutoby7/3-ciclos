@@ -1,0 +1,29 @@
+Manual Técnico:
+
+1.	HTML (index.html):
+o	Contiene una estructura básica donde el usuario puede ingresar un número en un campo de entrada (<input>)
+    y hacer clic en un botón (<button>) para generar la tabla de multiplicar de dicho número.
+o	El artículo (<article>) con el id resultado se utiliza para mostrar la tabla de multiplicar generada.
+
+2.	CSS (estilos.css):
+o	El diseño del cuerpo tiene un color de fondo azul claro y está centrado con texto alineado.
+o	Los elementos como el título, la sección principal, los campos de entrada y
+    el botón tienen estilos que mejoran la apariencia visual.
+o	El contenedor del resultado está estilizado con un color verde oscuro y
+    un formato alineado a la izquierda para que la tabla sea más fácil de leer.
+
+3.	JavaScript (script.js):
+o	Se obtienen los elementos del DOM (botonGenerar, campoNumeroMultiplicar, contenedorResultado) 
+    usando getElementById.
+o	Se agrega un eventListener al botón que escucha el evento click.
+o	Cuando se hace clic, se obtiene el valor del campo de entrada (campoNumeroMultiplicar.value), 
+    se convierte a entero con parseInt, y se guarda en la variable numero.
+o	Se utiliza un ciclo for que va de 1 a 10, generando cada línea de la tabla de multiplicar y
+    concatenándola en una cadena (resultado).
+o	Finalmente, el contenido del contenedor resultado se actualiza usando innerHTML
+    para mostrar la tabla de multiplicar.
+    
+    Este ejercicio introduce el uso de ciclos para realizar multiplicaciones y 
+    presentar resultados dinámicos, destacando cómo trabajar con la interacción del usuario en una página web.
+
+Github:
